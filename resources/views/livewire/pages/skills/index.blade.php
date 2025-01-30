@@ -46,7 +46,7 @@
                     </table>
                 </div>
             </div>
-            <div class="sm:w-[30%] flex w-full p-4 flex-col rounded-lg bg-white shadow-sm border border-slate-200">
+            <div class="sm:w-[30%] flex w-full p-4 flex-col rounded-lg bg-white shadow-sm border border-slate-200 max-h-[270px]">
                 <div class="overflow-x-auto">
                     <div class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                         <div class="flex justify-between items-center py-1">

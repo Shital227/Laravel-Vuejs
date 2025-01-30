@@ -73,12 +73,14 @@ const props = defineProps<{
 
         <div class="mt-3">
             <p
-                class="flex items-center text-base text-slate-600 font-light leading-normal"
+                class="flex items-start text-base text-slate-600 font-light leading-normal"
             >
                 <span class="mr-1">
                     <Icon name="file" height="20px" width="20px" />
                 </span>
-                {{ job.description }}
+                <span>
+                    {{ job.description }}
+                </span>
             </p>
         </div>
         <div class="mt-3">

@@ -20,7 +20,7 @@ class DashboardController extends Controller
     public function index(Request $request): Response
     {
         // Fetch all job postings along with their associated skills
-        $jobs = JobPosting::with('skills:name')->get();
+        $jobs = JobPosting::with('skills:name')->orderBy('id', 'desc')->get();
         
         return Inertia::render('Dashboard', [
            'jobs' => $jobs
