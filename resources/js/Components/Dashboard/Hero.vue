@@ -12,7 +12,7 @@
             <!-- Search -->
             <div>
                 <div
-                    class="bg-white w-full border rounded-full overflow-hidden border-gray-200 max-w-3xl mx-auto flex items-center justify-center">
+                    class="bg-white w-full border rounded-full overflow-hidden border-gray-200 max-w-3xl mx-auto flex items-center justify-between space-x-4">
                     <div class="flex-1 flex items-center border-r">
                         <span class="pl-5">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -36,11 +36,12 @@
                             </svg>
                         </span>
                         <input placeholder="Location"
-                            class="py-4 shadow-none border-none focus:outline-none focus:ring-0 outline-none ring-0"
+                            class="py-4  shadow-none border-none focus:outline-none focus:ring-0 outline-none ring-0 w-full"
                             type="text">
                     </div>
-                    <button class="bg-brand px-6 text-sm font-medium py-2 rounded-full text-white mr-3">Find
-                        jobs</button>
+                    <button class="bg-brand text-sm font-medium py-2 px-8 rounded-full text-white">
+                        Find jobs</button>
+                    <div class="mt-6"></div>
                 </div>
             </div>
         </div>
